@@ -5,6 +5,8 @@ Description: Set up custom email notifications to be sent based on a WooCommerce
 Author: Radley Sustaire, ZingMap LLC
 Authors URI: https://zingmap.com/
 Version: 1.0.0
+GitHub Plugin URI: https://github.com/RadGH/RS-WooCommerce-Purchase-Notifier
+GitHub Branch: master
 */
 
 define( 'RS_WCPN_URL', untrailingslashit(plugin_dir_url( __FILE__ )) );
