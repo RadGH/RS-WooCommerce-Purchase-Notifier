@@ -7,6 +7,7 @@ Authors URI: https://zingmap.com/
 Version: 1.0.0
 GitHub Plugin URI: https://github.com/RadGH/RS-WooCommerce-Purchase-Notifier
 GitHub Branch: master
+Alchemy Update URI: https://plugins.zingmap.com/plugin/rs-woocommerce-purchase-notifier/
 */
 
 define( 'RS_WCPN_URL', untrailingslashit(plugin_dir_url( __FILE__ )) );
@@ -34,6 +35,7 @@ class RS_WCPN_Plugin {
 		}
 		
 		// Include plugin files
+		include( RS_WCPN_PATH . '/includes/alchemy-updater.php' ); // For automatic updates
 		include( RS_WCPN_PATH . '/includes/emails.php' );
 		include( RS_WCPN_PATH . '/includes/orders.php' );
 		include( RS_WCPN_PATH . '/includes/products.php' );
