@@ -4,7 +4,7 @@ Plugin Name: RS WooCommerce Purchase Notifier
 Description: Set up custom email notifications to be sent based on a WooCommerce purchase of a specified product.
 Author: Radley Sustaire, ZingMap LLC
 Authors URI: https://zingmap.com/
-Version: 1.0.0
+Version: 1.0.1
 GitHub Plugin URI: https://github.com/RadGH/RS-WooCommerce-Purchase-Notifier
 GitHub Branch: master
 Alchemy Update URI: https://plugins.zingmap.com/plugin/rs-woocommerce-purchase-notifier/
@@ -12,7 +12,7 @@ Alchemy Update URI: https://plugins.zingmap.com/plugin/rs-woocommerce-purchase-n
 
 define( 'RS_WCPN_URL', untrailingslashit(plugin_dir_url( __FILE__ )) );
 define( 'RS_WCPN_PATH', dirname(__FILE__) );
-define( 'RS_WCPN_VERSION', '1.0.0' );
+define( 'RS_WCPN_VERSION', '1.0.1' );
 
 class RS_WCPN_Plugin {
 	

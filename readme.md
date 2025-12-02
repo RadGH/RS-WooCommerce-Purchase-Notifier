@@ -13,5 +13,8 @@ product, an email notification is sent to the specified email addresses.
 
 ## Changelog
 
+### 1.0.1
+- Added Alchemy Updater support to enable automatic updates
+
 ### 1.0.0
 - Initial release
