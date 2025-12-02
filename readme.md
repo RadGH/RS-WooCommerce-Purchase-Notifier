@@ -4,7 +4,7 @@ _Set up custom email notifications to be sent based on a WooCommerce purchase of
 
 - [View this plugin on Zingmap.com](https://zingmap.com/plugin/rs-utility-blocks/)
 
-![Plugin thumbnail](thumbnail.jpg)
+![Plugin thumbnail](thumbnail-min.jpg)
 
 ## Description
 
